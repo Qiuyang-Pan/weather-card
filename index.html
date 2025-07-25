@@ -671,6 +671,7 @@
                 const raindrop = document.createElement('div');
                 raindrop.className = 'raindrop';
                 raindrop.style.left = Math.random() * 100 + '%';
+                raindrop.style.top = '-30px';
                 raindrop.style.animation = 'rain-fall ' + (Math.random() * 0.8 + 0.7) + 's linear infinite';
                 raindrop.style.animationDelay = Math.random() * 2 + 's';
                 rainAnimation.appendChild(raindrop);
@@ -687,6 +688,7 @@
                 snowflake.className = 'snowflake';
                 snowflake.innerHTML = '❄';
                 snowflake.style.left = Math.random() * 100 + '%';
+                snowflake.style.top = '-30px';
                 snowflake.style.opacity = Math.random() * 0.7 + 0.3;
                 snowflake.style.fontSize = (Math.random() * 12 + 14) + 'px';
                 snowflake.style.animationDuration = (Math.random() * 4 + 6) + 's';
